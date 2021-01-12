@@ -30,9 +30,12 @@
         <div id="navigation" class="collapse navbar-collapse flex-column" >
             <?php
                 if (function_exists('the_custom_logo')) {
-                    the_custom_logo(); // Loads the logo provided by user
+                    $custom_logo_id = get_theme_mod('custom_logo');
+                    $logo = wp_get_attachment_image_src($custom_logo_id); // Handler takes have all of the information about passed image
+//                    the_custom_logo(); // Loads the logo provided by user but without classes
                 }
             ?>
+            <img class="mb-3 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
 
             <?php
 
