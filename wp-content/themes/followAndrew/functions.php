@@ -12,6 +12,19 @@ function missflow_handle_theme_support() {
 add_action('after_setup_theme', 'missflow_handle_theme_support');
 
 
+function missflow_menus() {
+    $locations = array(
+        'primary' => 'Desktop primary left Sidebar',
+        'footer' => 'Footer Menu Items',
+    );
+
+    register_nav_menus($locations);
+}
+
+// Init function -> on Init
+add_action('init', 'missflow_menus');
+
+
 /**
  * Action for register styles
  */
