@@ -1,3 +1,6 @@
+# Disclaimer
+This project has been created only for learning purpose with [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
