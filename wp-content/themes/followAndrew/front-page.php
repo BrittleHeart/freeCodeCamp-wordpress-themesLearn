@@ -1,4 +1,8 @@
+<?php get_header(); ?>
+
+
 <!-- Front page file loads the content directly to the Front page -> No matter what -->
+
 <div class="main-wrapper">
     <header class="page-title theme-bg-light text-center gradient py-5">
         <h1 class="heading">Blog Home Page Heading</h1>
@@ -64,3 +68,6 @@
     </footer>
 
 </div>
+
+
+<?php get_footer(); ?>
