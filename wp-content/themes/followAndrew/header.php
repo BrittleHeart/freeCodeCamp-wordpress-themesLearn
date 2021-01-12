@@ -28,7 +28,11 @@
         </button>
 
         <div id="navigation" class="collapse navbar-collapse flex-column" >
-            <img class="mb-3 mx-auto logo" src="/wp-content/themes/followAndrew/assets/images/logo.png" alt="logo" >
+            <?php
+                if (function_exists('the_custom_logo')) {
+                    the_custom_logo(); // Loads the logo provided by user
+                }
+            ?>
 
             <?php
 
