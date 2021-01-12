@@ -13,6 +13,8 @@ add_action('after_setup_theme', 'missflow_handle_theme_support');
 
 
 function missflow_menus() {
+    // Location where my target navigation should go,
+    // Names can be random but KEY must be unique
     $locations = array(
         'primary' => 'Desktop primary left Sidebar',
         'footer' => 'Footer Menu Items',
