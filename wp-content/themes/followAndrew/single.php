@@ -11,7 +11,7 @@
             while (have_posts()) {
                 the_post(); // This function is kinda handler that will help me get rest of data about posts
 
-                the_content();
+                get_template_part('template-parts/content', 'article'); // Gets content from template part (another directory
             }
         }
 
