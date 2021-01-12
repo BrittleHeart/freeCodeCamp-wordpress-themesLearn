@@ -1,8 +1,15 @@
 <?php
 
-// Adds dynamic title tags -> Simple, by using it, I can manage my title section
-// What's more, this function corresponds with `wp_head()` hook
-add_theme_support('title_tag');
+// REMEMBER! HOOKS MUST TO BE WRAPPED WITH FUNCTIONS
+function missflow_handle_theme_support() {
+
+    // Adds dynamic title tags -> Simple, by using it, I can manage my title section
+    // What's more, this function corresponds with `wp_head()` hook
+    // This title value comes from Wordpress -> admin panel -> settings -> title
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'missflow_handle_theme_support');
 
 
 /**
