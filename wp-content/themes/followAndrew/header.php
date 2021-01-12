@@ -59,6 +59,8 @@
 
         </div>
     </nav>
+
+	<?php dynamic_sidebar('sidebar-1'); // Shows off the passed widget ?>
 </header>
 
 <div class="main-wrapper">
