@@ -104,3 +104,25 @@ function missflow_register_scripts() {
 
 // Grabs the action and calls -> `wp_enqueue_scripts' BUILT-IN action
 add_action('wp_enqueue_scripts', 'missflow_register_scripts');
+
+
+/**
+ * This function allows me to customize users widgets
+ */
+
+function missflow_widget_areas() {
+
+	register_sidebar(array(
+		'before_title' => '',
+		'after_title' => '',
+		'before_widget' => '',
+		'after_widget' => '',
+		'name' => 'Sidebar area',
+		'id' => 'sidebar-1',
+		'description' => 'Sidebar Widget area'
+	));
+
+
+}
+
+add_action('widgets_init', 'missflow_widget_areas');
