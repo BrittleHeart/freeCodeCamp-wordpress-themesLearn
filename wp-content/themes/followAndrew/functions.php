@@ -1,5 +1,10 @@
 <?php
 
+// Adds dynamic title tags -> Simple, by using it, I can manage my title section
+// What's more, this function corresponds with `wp_head()` hook
+add_theme_support('title_tag');
+
+
 /**
  * Action for register styles
  */
