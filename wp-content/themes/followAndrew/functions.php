@@ -7,6 +7,7 @@ function missflow_handle_theme_support() {
     // What's more, this function corresponds with `wp_head()` hook
     // This title value comes from Wordpress -> admin panel -> settings -> title
     add_theme_support('title-tag');
+    add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'missflow_handle_theme_support');
