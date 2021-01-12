@@ -11,4 +11,5 @@
     </header>
 
     <?php the_content(); // Showing off the content ?>
+    <?php comments_template(); // Showing off all the comments related to the post ?>
 </div>
