@@ -1,0 +1,3 @@
+<?php
+
+// Displays single post
