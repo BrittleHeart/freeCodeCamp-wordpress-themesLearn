@@ -4,7 +4,7 @@
   "description": "Welcome to my first wordpress theme, created for fun and for learning purposes. I have in mind, that theme could not be the best one, that you can see from others, but everyone needs to start from something 🤓",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-scss": "sass --watch ./assets/scss/index.scss style.css"
   },
   "keywords": [
     "blog",
@@ -25,5 +25,9 @@
   "repository": {
     "url": "https://github.com/BrittleHeart/freeCodeCamp-wordpress-themesLearn/",
     "type": "git"
+  },
+  "devDependencies": {
+    "husky": "^4.3.7",
+    "sass": "^1.32.4"
   }
 }
