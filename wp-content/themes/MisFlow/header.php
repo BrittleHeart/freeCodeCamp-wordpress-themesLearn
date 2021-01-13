@@ -20,7 +20,8 @@
         }
     ?>
 	<nav class="misflow-theme__navigation" role="navigation" aria-label="Main Navigation"> <!-- .misflow-theme__navigation -->
-		<h1 class="navigation-header">
+
+		<h1 class="navigation-header"> <!-- .navigation-header -->
 
             <?php if (isset($logo)) { ?>
 
@@ -31,7 +32,7 @@
 
             <!-- Getting title fo  -->
 			<?php echo get_bloginfo('author_email') ?>
-        </h1>
+        </h1> <!-- end .navigation-header -->
 
 		<section class="navigation__right-side"> <!-- .navigation__right-side -->
 
