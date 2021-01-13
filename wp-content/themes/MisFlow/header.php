@@ -13,10 +13,25 @@
 
 <header class="misflow-theme__header" aria-label="Header"> <!-- .misflow-theme__header -->
 
-	<img src="" alt="header-logo" role="img">
-
+    <?php
+        if(function_exists('the_custom_logo')) {
+            $custom_logo_id = get_theme_mod('custom_logo');
+            $logo = wp_get_attachment_image_src($custom_logo_id);
+        }
+    ?>
 	<nav class="misflow-theme__navigation" role="navigation" aria-label="Main Navigation"> <!-- .misflow-theme__navigation -->
-		<h1 class="navigation-header"><?php the_title(); ?></h1>
+		<h1 class="navigation-header">
+
+            <?php if (isset($logo)) { ?>
+
+            <!-- Setting up logo of the blog -->
+            <img src="<?php echo $logo[0] ?>" alt="header-logo" role="img">
+
+            <?php } ?>
+
+            <!-- Getting title fo  -->
+			<?php echo get_bloginfo('author_email') ?>
+        </h1>
 
 		<section class="navigation__right-side"> <!-- .navigation__right-side -->
 
