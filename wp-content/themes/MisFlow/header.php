@@ -29,7 +29,6 @@
 					<a href="#">Start</a>
 					<a href="#">About</a>
 					<a href="#">Contact me</a>
-					<a href="">Start</a>
 				</li>
 			</ul> <!-- end .misflow-theme__navigation-list -->
 
