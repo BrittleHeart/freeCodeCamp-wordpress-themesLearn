@@ -11,11 +11,11 @@
 </head>
 <body>
 
-<header class="missflow-theme__header" aria-label="Header"> <!-- .missflow-theme__header -->
+<header class="misflow-theme__header" aria-label="Header"> <!-- .misflow-theme__header -->
 
 	<img src="" alt="header-logo" role="img">
 
-	<nav class="missflow-theme__navigation" role="navigation" aria-label="Main Navigation"> <!-- .missflow-theme__navigation -->
+	<nav class="misflow-theme__navigation" role="navigation" aria-label="Main Navigation"> <!-- .misflow-theme__navigation -->
 		<h1 class="navigation-header"><?php the_title(); ?></h1>
 
 		<section class="navigation__right-side"> <!-- .navigation__right-side -->
@@ -24,17 +24,17 @@
 
 			<?php get_template_part('searchform'); ?>
 
-			<ul class="missflow-theme__navigation-list" role="list" aria-label="Navigation List"> <!-- end .missflow-theme__navigation-list -->
+			<ul class="misflow-theme__navigation-list" role="list" aria-label="Navigation List"> <!-- end .misflow-theme__navigation-list -->
 				<li class="nav-item" role="listitem">
 					<a href="#">Start</a>
 					<a href="#">About</a>
 					<a href="#">Contact me</a>
 					<a href="">Start</a>
 				</li>
-			</ul> <!-- end .missflow-theme__navigation-list -->
+			</ul> <!-- end .misflow-theme__navigation-list -->
 
 		</section> <!-- end .navigation__right-side -->
 
-	</nav> <!-- end .missflow__theme-navigation -->
+	</nav> <!-- end .misflow__theme-navigation -->
 
-</header> <!-- end .missflow-theme__header -->
+</header> <!-- end .misflow-theme__header -->

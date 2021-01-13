@@ -1,16 +1,16 @@
-<footer class="missflow-theme__footer" role="group" aria-label="Footer"> <!-- .missflow-theme__footer -->
+<footer class="misflow-theme__footer" role="group" aria-label="Footer"> <!-- .misflow-theme__footer -->
 
-	<section class="footer__copyright"> <!-- .missflow-theme__footer__copyright -->
+	<section class="footer__copyright"> <!-- .misflow-theme__footer__copyright -->
 
-		<h4 class="footer__copyright-header"> <!-- .missflow-theme__footer__copyright-header -->
+		<h4 class="footer__copyright-header"> <!-- .misflow-theme__footer__copyright-header -->
 			<?php echo get_bloginfo('author_email'); ?>
 			&copy;
 			<?php echo date('Y'); ?>
-		</h4> <!-- end .missflow-theme__footer__copyright-header -->
+		</h4> <!-- end .misflow-theme__footer__copyright-header -->
 
-	</section> <!-- end .missflow-theme__footer__copyright -->
+	</section> <!-- end .misflow-theme__footer__copyright -->
 
-</footer> <!-- end .missflow-theme__footer -->
+</footer> <!-- end .misflow-theme__footer -->
 
 
 <!-- JavaScript imports -->
