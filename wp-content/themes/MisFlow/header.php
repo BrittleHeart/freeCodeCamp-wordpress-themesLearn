@@ -40,13 +40,17 @@
 
 			<?php get_template_part('searchform'); ?>
 
-			<ul class="misflow-theme__navigation-list" role="list" aria-label="Navigation List"> <!-- end .misflow-theme__navigation-list -->
-				<li class="nav-item" role="listitem">
-					<a href="#">Start</a>
-					<a href="#">About</a>
-					<a href="#">Contact me</a>
-				</li>
-			</ul> <!-- end .misflow-theme__navigation-list -->
+            <?php
+
+            wp_nav_menu(array(
+               'menu' => 'primary',
+               'container' => '',
+               'theme_location' => 'primary',
+               'items_wrap' => '
+                    <ul class="misflow-theme__navigation-list" role="list" aria-label="Navigation List">%3$s</ul>'
+            ))
+
+            ?>
 
 		</section> <!-- end .navigation__right-side -->
 
