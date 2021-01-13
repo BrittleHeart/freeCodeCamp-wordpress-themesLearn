@@ -23,7 +23,7 @@
 
 		<h1 class="navigation-header"> <!-- .navigation-header -->
 
-            <?php if (isset($logo)) { ?>
+            <?php if (!empty($logo)) { ?>
 
             <!-- Setting up logo of the blog -->
             <img src="<?php echo $logo[0] ?>" alt="header-logo" role="img">
