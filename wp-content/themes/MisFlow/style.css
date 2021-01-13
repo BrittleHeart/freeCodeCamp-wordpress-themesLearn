@@ -9,3 +9,10 @@ Description: My first WordPress theme, created for learning purpose. If you like
 Tags: Blog, sweet-themes, custom-colors, custom-background, EncodeIT
 Version: 1.0
  */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
