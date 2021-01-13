@@ -1,0 +1,17 @@
+/*
+Theme Name: MisFlow
+Text Domain: MisFlow
+Author: Bartosz Pazdur <b.pazdur@yahoo.com>
+Author URI: http://blog.bartoszpazdur.pl
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: My first WordPress theme, created for learning purpose. If you like that what you see, just give me feedback
+Tags: Blog, sweet-themes, custom-colors, custom-background, EncodeIT
+Version: 1.0
+ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
