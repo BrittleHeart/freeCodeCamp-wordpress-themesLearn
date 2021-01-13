@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="<?php get_locale(); ?>">
+<html lang="<?php echo get_locale(); ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php the_title(); ?>></title>
+    <title><?php the_title(); ?></title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
@@ -43,9 +43,9 @@
     <section class="footer__copyright"> <!-- .missflow-theme__footer__copyright -->
 
         <h4 class="footer__copyright-header"> <!-- .missflow-theme__footer__copyright-header -->
-            <?php wp_get_theme()->get('author'); ?>
+            <?php echo get_bloginfo('author_email'); ?>
             &copy;
-            <?php the_date('Y'); ?>
+            <?php echo date('Y'); ?>
         </h4> <!-- end .missflow-theme__footer__copyright-header -->
 
     </section> <!-- end .missflow-theme__footer__copyright -->
