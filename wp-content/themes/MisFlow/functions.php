@@ -23,4 +23,4 @@ function misflow_menus_location(): void {
 	register_nav_menus($locations);
 }
 
-add_action('init', 'missflow_menus');
+add_action('init', 'misflow_menus_location');
