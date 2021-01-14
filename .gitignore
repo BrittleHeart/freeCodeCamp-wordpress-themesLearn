@@ -4,3 +4,4 @@ node_modules/
 .vscode
 wp-content/uploads/
 */**/*.css.map
+.htaccess
